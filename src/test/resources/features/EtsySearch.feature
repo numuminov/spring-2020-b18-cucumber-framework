@@ -15,3 +15,4 @@ Feature: Etsy search feature
     When User searches "wooden spoon" in the search box
     And User clicks to search button
     Then User should see "wooden spoon" in the Etsy title
+#break until 12.06pm est

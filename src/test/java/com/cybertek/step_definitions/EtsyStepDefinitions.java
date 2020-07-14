@@ -29,19 +29,17 @@ public class EtsyStepDefinitions {
 
 
     @When("User searches {string} in the search box")
-    public void userSearchesInTheSearchBox(String arg0) {
+    public void userSearchesInTheSearchBox(String searchValue) {
+
+
 
     }
 
     @And("User clicks to search button")
     public void userClicksToSearchButton() {
-
     }
 
     @Then("User should see {string} in the Etsy title")
     public void userShouldSeeInTheEtsyTitle(String arg0) {
-        
     }
-
-
 }
