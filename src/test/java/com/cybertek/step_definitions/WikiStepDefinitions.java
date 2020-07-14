@@ -43,4 +43,8 @@ public class WikiStepDefinitions {
         Assert.assertEquals(actualHeaderText, expected);
 
     }
+
+//    @When("User searches {string} in the wiki {int} search page")
+//    public void userSearchesInTheWikiSearchPage(String arg0, int arg1) {
+//    }
 }

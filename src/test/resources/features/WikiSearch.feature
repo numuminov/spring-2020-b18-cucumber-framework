@@ -13,3 +13,6 @@ Feature: Wiki title and search verifications
     When User searches "Steve Jobs" in the wiki search page
     Then User should see "Steve Jobs" in the main header
 
+  #Scenario: Search functionality header verification
+  #  When User searches "Steve Jobs" in the wiki 1 search page
+  #  Then User should see "Steve Jobs" in the main header
