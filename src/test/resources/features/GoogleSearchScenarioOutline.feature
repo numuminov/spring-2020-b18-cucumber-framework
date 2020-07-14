@@ -9,7 +9,8 @@ Feature: Search
 
     Examples: Search values I want to search in Google
       | searchValue | expectedTitle |
-      | apple       | apple         |
+      | apple       | apasdfaple    |
       | kiwi        | kiwi          |
       | orange      | orange        |
+      | apple       | apple         |
     # making table pretty --> command option L ==> control alt L
