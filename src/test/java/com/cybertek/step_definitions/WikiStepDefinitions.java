@@ -1,5 +1,6 @@
 package com.cybertek.step_definitions;
 
+import com.cybertek.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,6 +10,7 @@ public class WikiStepDefinitions {
     @Given("User is on the Wikipedia home page")
     public void user_is_on_the_wikipedia_home_page() {
 
+        Driver.getDriver().get("https://www.wikipedia.org");
 
     }
 
@@ -21,6 +23,6 @@ public class WikiStepDefinitions {
     @Then("User should see {string} in the wiki title")
     public void user_should_see_in_the_wiki_title(String string) {
 
-        
+
     }
 }
