@@ -14,6 +14,10 @@ public class WikiSearchPage {
     @FindBy(id = "searchInput")
     public WebElement searchBox;
 
-    
+    @FindBy(id = "firstHeading")
+    public WebElement mainHeaderAfterSearch;
+
+    @FindBy(className = "fn")
+    public WebElement imageHeaderAfterSearch;
 
 }
