@@ -22,6 +22,7 @@ Feature: Search
     And User clicks to About link
     Then User should see title Google - About Google, Our Culture & Company News
 
+    @googleTable
   Scenario: Google search page footer links verification
     Then User should see six links in the footer
       | Advertising      |
@@ -31,3 +32,5 @@ Feature: Search
       | Terms            |
       | Settings         |
 
+    #command option L
+    #control alt L
