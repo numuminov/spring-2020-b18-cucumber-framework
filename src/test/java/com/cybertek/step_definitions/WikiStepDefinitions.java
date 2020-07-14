@@ -44,6 +44,19 @@ public class WikiStepDefinitions {
 
     }
 
+    @Then("User should see {string} in the image header")
+    public void userShouldSeeInTheImageHeader(String arg) {
+
+        String actualHeader = wikiSearchPage.imageHeaderAfterSearch.getText();
+        String expectedHeader = arg;
+
+        Assert.assertEquals(actualHeader, expectedHeader);
+
+    }
+
+
+
+
 //    @When("User searches {string} in the wiki {int} search page")
 //    public void userSearchesInTheWikiSearchPage(String arg0, int arg1) {
 //    }
