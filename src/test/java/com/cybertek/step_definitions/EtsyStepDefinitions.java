@@ -1,8 +1,10 @@
 package com.cybertek.step_definitions;
 
 import com.cybertek.utilities.Driver;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class EtsyStepDefinitions {
@@ -26,9 +28,20 @@ public class EtsyStepDefinitions {
     }
 
 
+    @When("User searches {string} in the search box")
+    public void userSearchesInTheSearchBox(String arg0) {
 
+    }
 
+    @And("User clicks to search button")
+    public void userClicksToSearchButton() {
 
+    }
+
+    @Then("User should see {string} in the Etsy title")
+    public void userShouldSeeInTheEtsyTitle(String arg0) {
+        
+    }
 
 
 }
