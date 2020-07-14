@@ -111,6 +111,8 @@ public class GoogleStepDefinitions {
         int expectedSize = linkStrings.size();
         int actualSize = googleSearchPage.footerLinks.size();
 
+        System.out.println("linkStrings = " + linkStrings);
+
         Assert.assertEquals(actualSize, expectedSize);
 
 
