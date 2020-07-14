@@ -5,14 +5,15 @@ Feature: Etsy search feature
   Background: User is on the etsy home page
     Given User is on the Etsy home page
 
-  @etsyWip
+
   Scenario: Title verification
     Then User should see title is as expected
 
     #expected : Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
 
+
+  @etsyWip
   Scenario: Title verification after search term
     When User searches "wooden spoon" in the search box
     And User clicks to search button
-    Then User should see "wooden spoon" in the Etsy title
-#break until 12.06pm est
+    Then User should see "Wooden spoon" in the Etsy title
