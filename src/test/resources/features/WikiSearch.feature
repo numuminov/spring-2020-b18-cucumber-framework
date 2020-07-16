@@ -18,7 +18,7 @@ Feature: Wiki title and search verifications
     When User searches "<searchValue>" in the wiki search page
     Then User should see "<expectedTitle>" in the wiki title
     Then User should see "<expectedMainHeader>" in the main header
-    Then User should see "<expectedImageHeader>" in the image header
+    Then User should see "<expectedImageHeader>" in the image headeraa
 
     Examples: example test data for wikipedia search
       | searchValue     | expectedTitle   | expectedMainHeader | expectedImageHeader |

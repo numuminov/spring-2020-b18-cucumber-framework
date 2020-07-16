@@ -1,9 +1,6 @@
 package com.cybertek.step_definitions;
 
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeStep;
+import io.cucumber.java.*;
 
 public class Hooks {
 
@@ -17,15 +14,38 @@ public class Hooks {
         System.out.println("--------> BEFORE ANNOTATION: DB CONNECTION CREATED <------");
     }
 
+
+
+
     @After(order = 1)
-    public void tearDownScenario(){
-        System.out.println("-----> After annotation: Closing browser");
+    public void tearDownScenario(Scenario scenario){
+        //System.out.println("-----> After annotation: Closing browser");
+
+        System.out.println("scenario.getName() = " + scenario.getName());
+        System.out.println("scenario.getSourceTagNames() = " + scenario.getSourceTagNames());
+        System.out.println("scenario.isFailed() = " + scenario.isFailed());
+
+
     }
+
+
+
+
+
+
 
     @After(value = "@db", order = 2 )
     public void tearDownDatabaseConnection(){
         System.out.println("--------> AFTER ANNOTATION: DB CONNECTION CLOSED <------");
     }
+
+
+
+
+
+
+
+
 
     @BeforeStep
     public void setUpStep(){
