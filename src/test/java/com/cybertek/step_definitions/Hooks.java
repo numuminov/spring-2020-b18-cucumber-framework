@@ -30,14 +30,16 @@ public class Hooks {
 
         //#1 we need to take a screen shot using SELENIUM -->
         // getScreenshotAs: to be able to use this method we have to cast our driver type to TakesScreenshot
-        byte [] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
 
         //#2 we are going to attach it into our report: using attach method
         //attach method accepts 3 arguments. #1: Screenshot itself #2: image type #3 current scenario's name
 
-        scenario.attach(screenshot, "image/png", scenario.getName());
+        if (scenario.isFailed()) {
 
+            byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", scenario.getName());
 
+        }
 
     }
 
