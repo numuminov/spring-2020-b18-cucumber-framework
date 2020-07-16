@@ -13,4 +13,30 @@ Feature: Search
       | kiwi        | kiwi          |
       | orange      | orange        |
       | apple       | apple         |
+      | banana      | banana        |
+      | broccoli    | broccoli      |
+      | cherries    | cherries      |
+      | red apple   | red apple     |
+      | green apple | green apple   |
+      | apple       | apasdfaple    |
+      | kiwi        | kiwi          |
+      | orange      | orange        |
+      | apple       | apple         |
+      | banana      | banana        |
+      | broccoli    | broccoli      |
+      | cherries    | cherries      |
+      | red apple   | red apple     |
+      | green apple | green apple   |
+      | apple       | apasdfaple    |
+      | kiwi        | kiwi          |
+      | orange      | orange        |
+      | apple       | apple         |
+      | banana      | banana        |
+      | broccoli    | broccoli      |
+      | cherries    | cherries      |
+      | red apple   | red apple     |
+      | green apple | green apple   |
+
+
+
     # making table pretty --> command option L ==> control alt L

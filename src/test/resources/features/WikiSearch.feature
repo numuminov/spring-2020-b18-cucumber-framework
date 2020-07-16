@@ -30,4 +30,15 @@ Feature: Wiki title and search verifications
       | Dua Lipa        | Dua Lipa        | Dua Lipa           | Dua Lipa            |
       | Thomas Edison   | Thomas Edison   | Thomas Edison      | Thomas Edison       |
       | Sam Heughan     | Sam Heughan     | Sam Heughan        | Sam Heughan         |
-
+      | Captain America | Captain America | Captain America    | Captain America     |
+      | Beyonce         | Beyonce         | Beyonce            | Beyonce             |
+      | Steve Jobs      | Steve Jobs      | Steve Jobs         | Steve Jobs          |
+      | John Travolta   | John Travolta   | John Travolta      | John Travolta       |
+      | Albert Einstein | Albert Einstein | Albert Einstein    | Albert Einstein     |
+      | Keanu Reeves    | Keanu Reeves    | Keanu Reeves       | Keanu Reeves        |
+      | Bruce Lee       | Bruce Lee       | Bruce Lee          | Bruce Lee           |
+      | Dua Lipa        | Dua Lipa        | Dua Lipa           | Dua Lipa            |
+      | Thomas Edison   | Thomas Edison   | Thomas Edison      | Thomas Edison       |
+      | Sam Heughan     | Sam Heughan     | Sam Heughan        | Sam Heughan         |
+      | Captain America | Captain America | Captain America    | Captain America     |
+      | Beyonce         | Beyonce         | Beyonce            | Beyonce             |
