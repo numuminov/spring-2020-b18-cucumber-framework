@@ -9,7 +9,7 @@ Feature: Search
 
     Examples: Search values I want to search in Google
       | searchValue | expectedTitle |
-      | apple       | apasdfaple    |
+      | apple       | apple         |
       | kiwi        | kiwi          |
       | orange      | orange        |
       | apple       | apple         |
@@ -18,7 +18,7 @@ Feature: Search
       | cherries    | cherries      |
       | red apple   | red apple     |
       | green apple | green apple   |
-      | apple       | apasdfaple    |
+      | apple       | apple         |
       | kiwi        | kiwi          |
       | orange      | orange        |
       | apple       | apple         |
@@ -27,15 +27,7 @@ Feature: Search
       | cherries    | cherries      |
       | red apple   | red apple     |
       | green apple | green apple   |
-      | apple       | apasdfaple    |
-      | kiwi        | kiwi          |
-      | orange      | orange        |
-      | apple       | apple         |
-      | banana      | banana        |
-      | broccoli    | broccoli      |
-      | cherries    | cherries      |
-      | red apple   | red apple     |
-      | green apple | green apple   |
+
 
 
 
