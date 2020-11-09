@@ -58,8 +58,9 @@
                 <configuration>
                     <includes>
                         <include>**/*ParallelRunner*.java</include>
+
                     </includes>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <runOrder>alphabetical</runOrder>
                     <parallel>methods</parallel>
                     <threadCount>3</threadCount>
